@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A904BF721ADF592E0051ED2E /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904BF711ADF592E0051ED2E /* Collection.swift */; };
+		A93C6EB31AF7594200495A93 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C6EB21AF7594200495A93 /* AlbumViewController.swift */; };
+		A93C6EB51AF7595F00495A93 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C6EB41AF7595F00495A93 /* SongViewController.swift */; };
+		A93C6EB71AF7597500495A93 /* AudiobookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C6EB61AF7597500495A93 /* AudiobookViewController.swift */; };
+		A93C6EB91AF759DB00495A93 /* BookPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C6EB81AF759DB00495A93 /* BookPlayerViewController.swift */; };
+		A9621D1E1AEE0DCE00800731 /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9621D1D1AEE0DCE00800731 /* PodcastViewController.swift */; };
+		A9AFD1621AFB48870023255E /* DJ-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A9AFD1611AFB48870023255E /* DJ-50.png */; };
+		A9B34ED51ADFB3AD0066E832 /* ITunesAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B34ED41ADFB3AD0066E832 /* ITunesAPIController.swift */; };
+		A9F170691AE472570063DEC8 /* SingletonSearchTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F170681AE472570063DEC8 /* SingletonSearchTerm.swift */; };
+		A9F1706D1AE498190063DEC8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F1706C1AE498190063DEC8 /* AVKit.framework */; };
+		A9F1706F1AE49E520063DEC8 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1706E1AE49E520063DEC8 /* Element.swift */; };
+		A9F84C861ADCCE20001A669C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F84C851ADCCE20001A669C /* AppDelegate.swift */; };
+		A9F84C8B1ADCCE20001A669C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F84C891ADCCE20001A669C /* Main.storyboard */; };
+		A9F84C8D1ADCCE20001A669C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F84C8C1ADCCE20001A669C /* Images.xcassets */; };
+		A9F84C901ADCCE20001A669C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9F84C8E1ADCCE20001A669C /* LaunchScreen.xib */; };
+		A9F84C9C1ADCCE20001A669C /* ITunesMediaJsonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F84C9B1ADCCE20001A669C /* ITunesMediaJsonDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F84C961ADCCE20001A669C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F84C781ADCCE20001A669C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F84C7F1ADCCE20001A669C;
+			remoteInfo = ITunesMediaJsonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A904BF711ADF592E0051ED2E /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = ITunesMediaJsonDemo/Collection.swift; sourceTree = "<group>"; };
+		A93C6EB21AF7594200495A93 /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumViewController.swift; path = ITunesMediaJsonDemo/AlbumViewController.swift; sourceTree = "<group>"; };
+		A93C6EB41AF7595F00495A93 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SongViewController.swift; path = ITunesMediaJsonDemo/SongViewController.swift; sourceTree = "<group>"; };
+		A93C6EB61AF7597500495A93 /* AudiobookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudiobookViewController.swift; path = ITunesMediaJsonDemo/AudiobookViewController.swift; sourceTree = "<group>"; };
+		A93C6EB81AF759DB00495A93 /* BookPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookPlayerViewController.swift; path = ITunesMediaJsonDemo/BookPlayerViewController.swift; sourceTree = "<group>"; };
+		A9621D1D1AEE0DCE00800731 /* PodcastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PodcastViewController.swift; path = ITunesMediaJsonDemo/PodcastViewController.swift; sourceTree = "<group>"; };
+		A9AFD1611AFB48870023255E /* DJ-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DJ-50.png"; sourceTree = "<group>"; };
+		A9B34ED41ADFB3AD0066E832 /* ITunesAPIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesAPIController.swift; sourceTree = "<group>"; };
+		A9F170681AE472570063DEC8 /* SingletonSearchTerm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonSearchTerm.swift; sourceTree = "<group>"; };
+		A9F1706C1AE498190063DEC8 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A9F1706E1AE49E520063DEC8 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Element.swift; path = ITunesMediaJsonDemo/Element.swift; sourceTree = "<group>"; };
+		A9F84C801ADCCE20001A669C /* ITunesMediaJsonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITunesMediaJsonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F84C841ADCCE20001A669C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F84C851ADCCE20001A669C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9F84C8A1ADCCE20001A669C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9F84C8C1ADCCE20001A669C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ITunesMediaJsonDemo/Images.xcassets; sourceTree = "<group>"; };
+		A9F84C8F1ADCCE20001A669C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9F84C951ADCCE20001A669C /* ITunesMediaJsonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITunesMediaJsonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F84C9A1ADCCE20001A669C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F84C9B1ADCCE20001A669C /* ITunesMediaJsonDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesMediaJsonDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F84C7D1ADCCE20001A669C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F1706D1AE498190063DEC8 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F84C921ADCCE20001A669C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95A00701ADE64EA00859C71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A904BF711ADF592E0051ED2E /* Collection.swift */,
+				A9F1706E1AE49E520063DEC8 /* Element.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A95A00711ADE650B00859C71 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A93C6EB21AF7594200495A93 /* AlbumViewController.swift */,
+				A93C6EB41AF7595F00495A93 /* SongViewController.swift */,
+				A93C6EB61AF7597500495A93 /* AudiobookViewController.swift */,
+				A93C6EB81AF759DB00495A93 /* BookPlayerViewController.swift */,
+				A9621D1D1AEE0DCE00800731 /* PodcastViewController.swift */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A9C599381ADD8E3900F58065 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A9B34ED41ADFB3AD0066E832 /* ITunesAPIController.swift */,
+				A9F170681AE472570063DEC8 /* SingletonSearchTerm.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A9F84C771ADCCE20001A669C = {
+			isa = PBXGroup;
+			children = (
+				A9F84C821ADCCE20001A669C /* ITunesMediaJsonDemo */,
+				A9F84C8C1ADCCE20001A669C /* Images.xcassets */,
+				A9F84C8E1ADCCE20001A669C /* LaunchScreen.xib */,
+				A9F84C981ADCCE20001A669C /* ITunesMediaJsonDemoTests */,
+				A9F84C811ADCCE20001A669C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F84C811ADCCE20001A669C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F84C801ADCCE20001A669C /* ITunesMediaJsonDemo.app */,
+				A9F84C951ADCCE20001A669C /* ITunesMediaJsonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F84C821ADCCE20001A669C /* ITunesMediaJsonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9F84C851ADCCE20001A669C /* AppDelegate.swift */,
+				A9F84C891ADCCE20001A669C /* Main.storyboard */,
+				A95A00711ADE650B00859C71 /* ViewControllers */,
+				A95A00701ADE64EA00859C71 /* Model */,
+				A9C599381ADD8E3900F58065 /* API */,
+				A9F84C831ADCCE20001A669C /* Supporting Files */,
+				A9F1706C1AE498190063DEC8 /* AVKit.framework */,
+			);
+			path = ITunesMediaJsonDemo;
+			sourceTree = "<group>";
+		};
+		A9F84C831ADCCE20001A669C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFD1611AFB48870023255E /* DJ-50.png */,
+				A9F84C841ADCCE20001A669C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F84C981ADCCE20001A669C /* ITunesMediaJsonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F84C9B1ADCCE20001A669C /* ITunesMediaJsonDemoTests.swift */,
+				A9F84C991ADCCE20001A669C /* Supporting Files */,
+			);
+			path = ITunesMediaJsonDemoTests;
+			sourceTree = "<group>";
+		};
+		A9F84C991ADCCE20001A669C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F84C9A1ADCCE20001A669C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F84C7F1ADCCE20001A669C /* ITunesMediaJsonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F84C9F1ADCCE20001A669C /* Build configuration list for PBXNativeTarget "ITunesMediaJsonDemo" */;
+			buildPhases = (
+				A9F84C7C1ADCCE20001A669C /* Sources */,
+				A9F84C7D1ADCCE20001A669C /* Frameworks */,
+				A9F84C7E1ADCCE20001A669C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITunesMediaJsonDemo;
+			productName = ITunesMediaJsonDemo;
+			productReference = A9F84C801ADCCE20001A669C /* ITunesMediaJsonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F84C941ADCCE20001A669C /* ITunesMediaJsonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F84CA21ADCCE20001A669C /* Build configuration list for PBXNativeTarget "ITunesMediaJsonDemoTests" */;
+			buildPhases = (
+				A9F84C911ADCCE20001A669C /* Sources */,
+				A9F84C921ADCCE20001A669C /* Frameworks */,
+				A9F84C931ADCCE20001A669C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F84C971ADCCE20001A669C /* PBXTargetDependency */,
+			);
+			name = ITunesMediaJsonDemoTests;
+			productName = ITunesMediaJsonDemoTests;
+			productReference = A9F84C951ADCCE20001A669C /* ITunesMediaJsonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F84C781ADCCE20001A669C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "James Van Dillen";
+				TargetAttributes = {
+					A9F84C7F1ADCCE20001A669C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A9F84C941ADCCE20001A669C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A9F84C7F1ADCCE20001A669C;
+					};
+				};
+			};
+			buildConfigurationList = A9F84C7B1ADCCE20001A669C /* Build configuration list for PBXProject "ITunesMediaJsonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F84C771ADCCE20001A669C;
+			productRefGroup = A9F84C811ADCCE20001A669C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F84C7F1ADCCE20001A669C /* ITunesMediaJsonDemo */,
+				A9F84C941ADCCE20001A669C /* ITunesMediaJsonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F84C7E1ADCCE20001A669C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AFD1621AFB48870023255E /* DJ-50.png in Resources */,
+				A9F84C8B1ADCCE20001A669C /* Main.storyboard in Resources */,
+				A9F84C901ADCCE20001A669C /* LaunchScreen.xib in Resources */,
+				A9F84C8D1ADCCE20001A669C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F84C931ADCCE20001A669C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F84C7C1ADCCE20001A669C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F170691AE472570063DEC8 /* SingletonSearchTerm.swift in Sources */,
+				A93C6EB71AF7597500495A93 /* AudiobookViewController.swift in Sources */,
+				A9B34ED51ADFB3AD0066E832 /* ITunesAPIController.swift in Sources */,
+				A93C6EB91AF759DB00495A93 /* BookPlayerViewController.swift in Sources */,
+				A9F84C861ADCCE20001A669C /* AppDelegate.swift in Sources */,
+				A904BF721ADF592E0051ED2E /* Collection.swift in Sources */,
+				A9621D1E1AEE0DCE00800731 /* PodcastViewController.swift in Sources */,
+				A9F1706F1AE49E520063DEC8 /* Element.swift in Sources */,
+				A93C6EB51AF7595F00495A93 /* SongViewController.swift in Sources */,
+				A93C6EB31AF7594200495A93 /* AlbumViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F84C911ADCCE20001A669C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F84C9C1ADCCE20001A669C /* ITunesMediaJsonDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F84C971ADCCE20001A669C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F84C7F1ADCCE20001A669C /* ITunesMediaJsonDemo */;
+			targetProxy = A9F84C961ADCCE20001A669C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9F84C891ADCCE20001A669C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F84C8A1ADCCE20001A669C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F84C8E1ADCCE20001A669C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F84C8F1ADCCE20001A669C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ITunesMediaJsonDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F84C9D1ADCCE20001A669C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F84C9E1ADCCE20001A669C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F84CA01ADCCE20001A669C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ITunesMediaJsonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9F84CA11ADCCE20001A669C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ITunesMediaJsonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9F84CA31ADCCE20001A669C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ITunesMediaJsonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITunesMediaJsonDemo.app/ITunesMediaJsonDemo";
+			};
+			name = Debug;
+		};
+		A9F84CA41ADCCE20001A669C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ITunesMediaJsonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITunesMediaJsonDemo.app/ITunesMediaJsonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F84C7B1ADCCE20001A669C /* Build configuration list for PBXProject "ITunesMediaJsonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F84C9D1ADCCE20001A669C /* Debug */,
+				A9F84C9E1ADCCE20001A669C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F84C9F1ADCCE20001A669C /* Build configuration list for PBXNativeTarget "ITunesMediaJsonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F84CA01ADCCE20001A669C /* Debug */,
+				A9F84CA11ADCCE20001A669C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F84CA21ADCCE20001A669C /* Build configuration list for PBXNativeTarget "ITunesMediaJsonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F84CA31ADCCE20001A669C /* Debug */,
+				A9F84CA41ADCCE20001A669C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F84C781ADCCE20001A669C /* Project object */;
+}
