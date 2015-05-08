@@ -3,4 +3,4 @@ A demo in Swift using a TabViewController to navigate between media types. The a
 
 Links to icons used:
 
-Record icon - <a href="https://icons8.com/web-app/9403/Music-Record-Filled">Free Music Record Filled icon source</a>, Book icon - <a href="https://icons8.com/web-app/453/Book">Free Book icon source</a>
+<a href="https://icons8.com/web-app/9403/Music-Record-Filled">Free Music Record Filled icon source</a>, <a href="https://icons8.com/web-app/453/Book">Free Book icon source</a>
